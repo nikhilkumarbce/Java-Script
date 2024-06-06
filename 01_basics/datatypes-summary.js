@@ -42,9 +42,38 @@ let myObj =
 // console.log(myFunction);
 // console.log(typeof myFunction);
 
-console.log(typeof myObj);
-console.log(typeof outsideTemp);
+// console.log(typeof myObj);
+// console.log(typeof outsideTemp);
 
-console.log(typeof id);
+// console.log(typeof id);
 
 
+
+
+//  **********************   MEMORY IN JS   *******************//
+
+//  STACK AND HEAP  
+
+
+// let myYoutubename = "Nikhilblog"
+
+// let anotherName = myYoutubename
+// anotherName = "Blogwithall"
+
+// console.log(myYoutubename);
+// console.log(anotherName);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@paytm"
+}
+
+let userTwo = userOne
+userTwo.email = "userTwo@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+// Primitive Data types gives copy if accesed another time ;  while non-primitive gives reference.
