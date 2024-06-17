@@ -66,7 +66,7 @@ hanndleObject({
 const myNewArray = [100,200,500,600]
 
 function secondValue (getArray) {
-    return [1]
+    return getArray[3]
 }
 
-console.log(myNewArray);
+console.log(secondValue(myNewArray));
